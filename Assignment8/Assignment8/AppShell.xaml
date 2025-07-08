@@ -12,32 +12,32 @@
     <TabBar>
 
         <ShellContent
-            Title="Home"
+         
             Icon="home.png"
             ContentTemplate="{DataTemplate local:Home}"
             Route="Home" />
 
         <ShellContent
-            Title="Search"
+         
             Icon="magnifyingglass.png"
             ContentTemplate="{DataTemplate local:Search}"
             Route="Search" />
 
         <ShellContent
-            Title="Create"
+          
             Icon="plus.png"
             ContentTemplate="{DataTemplate local:Create}"
             Route="Create" />
 
        
         <ShellContent
-            Title="Inbox"
+         
             Icon="messenger.png"
             ContentTemplate="{DataTemplate local:Inbox}"
             Route="Inbox" />
 
         <ShellContent
-            Title="Profile"
+        
             Icon="user.png"
             ContentTemplate="{DataTemplate local:Profile}"
             Route="Profile" />

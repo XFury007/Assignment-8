@@ -2,6 +2,57 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment8.BottomBar.Home"
-             Title="Home">
-    
+             NavigationPage.HasNavigationBar="False"
+             >
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout>
+
+            
+            <ScrollView Orientation="Horizontal" HeightRequest="50">
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Label Text="For You" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
+                    <Label Text="Anime" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
+                    <Label Text="Cars" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
+                    <Label Text="Software Development" WidthRequest="250" FontSize="15" FontAttributes="Bold"/>
+                </StackLayout>
+            </ScrollView>
+
+            <VerticalStackLayout >
+
+                <Image Source="download.jpeg"
+                   HeightRequest="600"
+                   WidthRequest="350"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"/>
+
+                <Image Source="download1.jpeg"
+                   HeightRequest="300"
+                   WidthRequest="300"
+                   HorizontalOptions="End" 
+                   VerticalOptions="End"/>
+
+                <Image Source="image2.jpeg"
+                   HeightRequest="350"
+                   WidthRequest="300"
+                   VerticalOptions="Fill"/>
+
+                <Image Source="image1.jpeg"
+                   HeightRequest="350"
+                   WidthRequest="300"
+                   HorizontalOptions="Fill"/>
+
+                <Image Source="tobi.jpeg"
+                   HeightRequest="350"
+                   WidthRequest="300"
+                  VerticalOptions="Fill"/>
+
+                <Image Source ="image3.jpeg"
+                    HeightRequest="300"
+                    WidthRequest="300"
+                    VerticalOptions="Fill"/>
+
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
