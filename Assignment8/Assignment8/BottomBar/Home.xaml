@@ -28,8 +28,8 @@
                     <RowDefinition Height="500"/>
                     <RowDefinition Height="500"/>
                     <RowDefinition Height="560"/>
-                    <RowDefinition Height="450"/>
-                    <RowDefinition Height="600"/>
+                    <RowDefinition Height="750"/>
+                    <RowDefinition Height="500"/>
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
@@ -38,7 +38,7 @@
                 </Grid.ColumnDefinitions>
 
 
-                <Grid Grid.Row="0" Grid.Column="0" Padding="0,10,0,24">
+                <Grid Grid.Row="0" Grid.Column="0" Padding="0,10,0,44">
                     <Image 
                     Source="download.jpeg"
                     Aspect="AspectFill"
@@ -47,14 +47,30 @@
                 </Grid>
 
 
-                <Grid Grid.Row="0" Grid.Column="1" Padding="10,10,0,0">
+                <Grid Grid.Row="0" Grid.Column="0" >
+                    <Image 
+                    Source="dots.png"
+                   WidthRequest="15"
+                   HeightRequest="15"
+                   VerticalOptions="End" 
+                   HorizontalOptions="End"/>
+                </Grid>
+
+                <Grid Grid.Row="0" Grid.Column="1" Padding="10,10,0,20">
                     <Image 
                     Source="download1.jpeg"
                     Aspect="AspectFill"
                     HorizontalOptions="Fill"
                     VerticalOptions="Fill"/>
                 </Grid>
-
+                <Grid Grid.Row="0" Grid.Column="1" >
+                    <Image 
+                      Source="dots.png"
+                     WidthRequest="15"
+                     HeightRequest="15"
+                     VerticalOptions="End" 
+                     HorizontalOptions="End"/>  
+                </Grid>
                 <Grid Grid.Row="1" Grid.Column="1" Padding="10,20,0,0">
                     <Image 
                       Source="image3.jpeg"
@@ -62,7 +78,14 @@
                       HorizontalOptions="Fill"
                       VerticalOptions="Fill"/>
                 </Grid>
-
+                <Grid Grid.Row="1" Grid.Column="1" >
+                    <Image 
+                        Source="dots.png"
+                        WidthRequest="15"
+                     HeightRequest="15"
+                       VerticalOptions="End" 
+                         HorizontalOptions="End"/>
+                </Grid>
                 <Grid Grid.Row="1" Grid.Column="0" Padding="10,20,0,0">
                     <Image 
                        Source="image1.jpeg"
@@ -70,7 +93,14 @@
                        HorizontalOptions="Fill"
                        VerticalOptions="Fill"/>
                 </Grid>
-
+                <Grid Grid.Row="1" Grid.Column="0" >
+                    <Image 
+                      Source="dots.png"
+                     WidthRequest="15"
+                     HeightRequest="15"
+                     VerticalOptions="End" 
+                     HorizontalOptions="End"/>
+                </Grid>
                 <Grid Grid.Row="2" Grid.Column="0" Padding="10,20,0,0">
                     <Image 
                         Source="helloworld.jpg"
@@ -89,7 +119,7 @@
 
                 </Grid>
 
-                <Grid Grid.Row="3" Grid.Column="0" Padding="10,20,0,0">
+                <Grid Grid.Row="3" Grid.Column="0" Padding="10,30,0,0">
                     <Image 
                         Source="snoopy1.jpg"
                         Aspect="AspectFill"
@@ -97,7 +127,7 @@
                         VerticalOptions="Fill"/>
                 </Grid>
 
-                <Grid Grid.Row="3" Grid.Column="1" Padding="10,20,0,0">
+                <Grid Grid.Row="3" Grid.Column="1" Padding="10,20,0,20">
                     <Image 
                         Source="pc1.jpg"
                         Aspect="AspectFill"
@@ -130,9 +160,9 @@
                         VerticalOptions="Fill"/>
                 </Grid>
 
-                <Grid Grid.Row="6" Grid.Column="0" Padding="10,20,0,0">
+                <Grid Grid.Row="6" Grid.Column="0" Padding="10,26,0,30">
                     <Image 
-                     Source="bladerunnercrop.jpg"
+                     Source="vsferrari.jpg"
                      Aspect="AspectFill"
                      HorizontalOptions="Fill"
                      VerticalOptions="Fill"/>
