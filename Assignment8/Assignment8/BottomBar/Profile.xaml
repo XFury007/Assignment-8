@@ -3,5 +3,44 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment8.BottomBar.Profile"
              Title="Profile">
-    
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Top left label -->
+        <Label Text="Row 0, Col 0"
+           Grid.Row="0" Grid.Column="0"
+           BackgroundColor="LightBlue"/>
+
+        <!-- Top right label -->
+        <Label Text="Row 0, Col 1"
+           Grid.Row="0" Grid.Column="1"
+           BackgroundColor="LightGreen"/>
+
+        <!-- Middle label spanning both columns -->
+        <Label Text="Row 1, Span 2 Columns"
+           Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+           BackgroundColor="Orange"/>
+
+        <!-- Bottom left label -->
+        <Label Text="Row 2, Col 0"
+           Grid.Row="2" Grid.Column="0"
+           BackgroundColor="Pink"/>
+
+        <!-- Bottom right label -->
+        <Label Text="Row 2, Col 1"
+           Grid.Row="2" Grid.Column="1"
+           BackgroundColor="LightGray"/>
+    </Grid>
+
 </ContentPage>

@@ -3,11 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment8.BottomBar.Home"
              NavigationPage.HasNavigationBar="False"
+       
              >
+    
+    
+    
     <ScrollView Orientation="Vertical">
         <VerticalStackLayout>
-
             
+            <!-- Horizontal scrollable labels -->
             <ScrollView Orientation="Horizontal" HeightRequest="50">
                 <StackLayout Orientation="Horizontal" Padding="10">
                     <Label Text="For You" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
@@ -17,42 +21,56 @@
                 </StackLayout>
             </ScrollView>
 
-            <VerticalStackLayout >
+            <!-- Grid layout for images -->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-                <Image Source="download.jpeg"
-                   HeightRequest="600"
-                   WidthRequest="350"
-                   HorizontalOptions="Start"
-                   VerticalOptions="Start"/>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-                <Image Source="download1.jpeg"
-                   HeightRequest="300"
-                   WidthRequest="300"
-                   HorizontalOptions="End" 
-                   VerticalOptions="End"/>
+                <!-- Place images in grid cells -->
+                <Image Grid.Row="0" Grid.Column="0"
+                   Source="download.jpeg"
+                   HeightRequest="600" WidthRequest="350"
+                   HorizontalOptions="Start"/>
 
-                <Image Source="image2.jpeg"
-                   HeightRequest="350"
-                   WidthRequest="300"
+                <Image Grid.Row="1" Grid.Column="1"
+                   Source="download1.jpeg"
+                   HeightRequest="300" WidthRequest="300"
+                   HorizontalOptions="End"/>
+
+                <Image Grid.Row="2" Grid.Column="0"
+                   Source="image2.jpeg"
+                   HeightRequest="350" WidthRequest="300"
                    VerticalOptions="Fill"/>
 
-                <Image Source="image1.jpeg"
-                   HeightRequest="350"
-                   WidthRequest="300"
+                <Image Grid.Row="3" Grid.Column="1"
+                   Source="image1.jpeg"
+                   HeightRequest="350" WidthRequest="300"
                    HorizontalOptions="Fill"/>
 
-                <Image Source="tobi.jpeg"
-                   HeightRequest="350"
-                   WidthRequest="300"
-                  VerticalOptions="Fill"/>
+                <Image Grid.Row="4" Grid.Column="0"
+                   Source="tobi.jpeg"
+                   HeightRequest="350" WidthRequest="300"
+                   VerticalOptions="Fill"/>
 
-                <Image Source ="image3.jpeg"
-                    HeightRequest="300"
-                    WidthRequest="300"
-                    VerticalOptions="Fill"/>
+                <Image Grid.Row="5" Grid.Column="1"
+                   Source="image3.jpeg"
+                   HeightRequest="300" WidthRequest="300"
+                   VerticalOptions="Fill"/>
+            </Grid>
 
-            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
+
 
 </ContentPage>
