@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment8.BottomBar.Home"
@@ -21,54 +22,133 @@
                 </StackLayout>
             </ScrollView>
 
-            <!-- Grid layout for images -->
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="400"/>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="560"/>
+                    <RowDefinition Height="450"/>
+                    <RowDefinition Height="600"/>
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
 
-                <!-- Place images in grid cells -->
-                <Image Grid.Row="0" Grid.Column="0"
-                   Source="download.jpeg"
-                   HeightRequest="600" WidthRequest="350"
-                   HorizontalOptions="Start"/>
 
-                <Image Grid.Row="1" Grid.Column="1"
-                   Source="download1.jpeg"
-                   HeightRequest="300" WidthRequest="300"
-                   HorizontalOptions="End"/>
+                <Grid Grid.Row="0" Grid.Column="0" Padding="0,10,0,24">
+                    <Image 
+                    Source="download.jpeg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill"/>
+                </Grid>
 
-                <Image Grid.Row="2" Grid.Column="0"
-                   Source="image2.jpeg"
-                   HeightRequest="350" WidthRequest="300"
-                   VerticalOptions="Fill"/>
 
-                <Image Grid.Row="3" Grid.Column="1"
-                   Source="image1.jpeg"
-                   HeightRequest="350" WidthRequest="300"
-                   HorizontalOptions="Fill"/>
+                <Grid Grid.Row="0" Grid.Column="1" Padding="10,10,0,0">
+                    <Image 
+                    Source="download1.jpeg"
+                    Aspect="AspectFill"
+                    HorizontalOptions="Fill"
+                    VerticalOptions="Fill"/>
+                </Grid>
 
-                <Image Grid.Row="4" Grid.Column="0"
-                   Source="tobi.jpeg"
-                   HeightRequest="350" WidthRequest="300"
-                   VerticalOptions="Fill"/>
+                <Grid Grid.Row="1" Grid.Column="1" Padding="10,20,0,0">
+                    <Image 
+                      Source="image3.jpeg"
+                      Aspect="AspectFill"
+                      HorizontalOptions="Fill"
+                      VerticalOptions="Fill"/>
+                </Grid>
 
-                <Image Grid.Row="5" Grid.Column="1"
-                   Source="image3.jpeg"
-                   HeightRequest="300" WidthRequest="300"
-                   VerticalOptions="Fill"/>
+                <Grid Grid.Row="1" Grid.Column="0" Padding="10,20,0,0">
+                    <Image 
+                       Source="image1.jpeg"
+                       Aspect="AspectFill"
+                       HorizontalOptions="Fill"
+                       VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="2" Grid.Column="0" Padding="10,20,0,0">
+                    <Image 
+                        Source="helloworld.jpg"
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="2" Grid.Column="1" Padding="10,20,0,0">
+                    <Image 
+                        Source="zl1.jpg"
+                        
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+
+                </Grid>
+
+                <Grid Grid.Row="3" Grid.Column="0" Padding="10,20,0,0">
+                    <Image 
+                        Source="snoopy1.jpg"
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="3" Grid.Column="1" Padding="10,20,0,0">
+                    <Image 
+                        Source="pc1.jpg"
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="4" Grid.ColumnSpan="2" Padding="10,20,0,0">
+                    <Image 
+                        Source="transformers.gif"
+                        IsAnimationPlaying=" True"
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="5" Grid.Column="0" Padding="10,20,0,0">
+                    <Image 
+                    
+                    Source="tobi2.jpeg"
+                     Aspect="AspectFill"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="5" Grid.Column="1" Padding="10,20,0,0">
+                    <Image 
+                        Source="berserkcrop.jpg"
+                        Aspect="AspectFill"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="6" Grid.Column="0" Padding="10,20,0,0">
+                    <Image 
+                     Source="bladerunnercrop.jpg"
+                     Aspect="AspectFill"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="6" Grid.Column="1" Padding="10,20,0,0">
+                    <Image 
+                     Source="download7.jpg"
+                     Aspect="AspectFill"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="Fill"/>
+                </Grid>
+
+               
+
             </Grid>
-
         </VerticalStackLayout>
     </ScrollView>
 
