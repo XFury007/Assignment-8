@@ -30,7 +30,9 @@
                     <RowDefinition Height="560"/>
                     <RowDefinition Height="750"/>
                     <RowDefinition Height="500"/>
-                    <RowDefinition Height="500"/>    
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="700"/>
+                    <RowDefinition Height="650"/>
                 </Grid.RowDefinitions>
 
                 <Grid.ColumnDefinitions>
@@ -242,8 +244,23 @@
                      VerticalOptions="End" 
                      HorizontalOptions="End"/>
                 </Grid>
-
-
+               
+                <Grid Grid.Row="7" Grid.ColumnSpan="2" Padding="10,20,0,40">
+                    <Image 
+                     Source="ren.gif"
+                     IsAnimationPlaying=" True"
+                     Aspect="AspectFill"
+                     HorizontalOptions="Fill"
+                     VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="7" Grid.Column="1" >
+                    <Image 
+                        Source="dots.png"
+                        WidthRequest="15"
+                         HeightRequest="15"
+                         VerticalOptions="End" 
+                            HorizontalOptions="End"/>
+                </Grid>
             </Grid>
         </VerticalStackLayout>
     </ScrollView>
