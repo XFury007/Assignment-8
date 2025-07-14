@@ -6,18 +6,20 @@
              NavigationPage.HasNavigationBar="False"
        
              >
-    
-    
+
     
     <ScrollView Orientation="Vertical">
         <VerticalStackLayout>
             
-            <!-- Horizontal scrollable labels -->
+ 
             <ScrollView Orientation="Horizontal" HeightRequest="50">
                 <StackLayout Orientation="Horizontal" Padding="10">
+                    
                     <Label Text="For You" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
-                    <Label Text="Anime" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
-                    <Label Text="Cars" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
+                    <Button Text="Anime" Margin="0,-10,0,0"  Padding ="0" Clicked="OnGoToAnimePageClicked" BackgroundColor="White" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="100" FontSize="15" FontAttributes="Bold"/>
+                    <Button Text="ConceptArt" Margin="0,-10,0,0"  Padding ="0" Clicked="OnGoToConceptArtPageClicked" BackgroundColor="White" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="100" FontSize="15" FontAttributes="Bold"/>
+
+
                     <Label Text="Software Development" WidthRequest="250" FontSize="15" FontAttributes="Bold"/>
                 </StackLayout>
             </ScrollView>
