@@ -16,4 +16,8 @@ public partial class Home : ContentPage
     {
         await Navigation.PushAsync(new ConceptArt());
     }
+    private async void OnGoToComputerSciencePageClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ComputerScience());
+    }
 }
