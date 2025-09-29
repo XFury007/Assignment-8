@@ -118,7 +118,6 @@
                 <Grid Grid.Row="2" Grid.Column="1" Padding="10,37,0,20">
                     <Image 
                         Source="zl1.jpg"
-                        
                         Aspect="AspectFill"
                         HorizontalOptions="Fill"
                         VerticalOptions="Fill"/>

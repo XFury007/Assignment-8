@@ -3,10 +3,246 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Assignment8.TopBar.ConceptArt"
              Title="ConceptArt">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="400"/>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="560"/>
+                    <RowDefinition Height="750"/>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="700"/>
+                    <RowDefinition Height="650"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Row="0" Grid.Column="0" Padding="0,10,0,44">
+                    <Image 
+             Source="code1.jpg"
+             Aspect="AspectFill"
+             HorizontalOptions="Fill"
+             VerticalOptions="Fill"/>
+                </Grid>
+
+                <Grid Grid.Row="0" Grid.Column="0" >
+                    <Image 
+             Source="dots.png"
+            WidthRequest="15"
+            HeightRequest="15"
+            VerticalOptions="End" 
+            HorizontalOptions="End"/>
+                </Grid>
+
+                <Grid Grid.Row="0" Grid.Column="1" Padding="10,10,0,20">
+                    <Image 
+             Source="tobi2.jpeg"
+             Aspect="AspectFill"
+             HorizontalOptions="Fill"
+             VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="0" Grid.Column="1" >
+                    <Image 
+               Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1" Padding="10,20,0,20">
+                    <Image 
+               Source="madara.jpg"
+               Aspect="AspectFill"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1" >
+                    <Image 
+                 Source="dots.png"
+                 WidthRequest="15"
+              HeightRequest="15"
+                VerticalOptions="End" 
+                  HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="0" Padding="10,10,0,29">
+                    <Image 
+                Source="berserk.jpg"
+                Aspect="AspectFill"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="0" >
+                    <Image 
+               Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="0" Padding="10,15,0,24">
+                    <Image 
+                 Source="no8.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="0" >
+                    <Image 
+              Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="1" Padding="10,37,0,20">
+                    <Image 
+                 Source="concept8.png"
+                 Aspect="AspectFill"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="1" >
+                    <Image 
+              Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="0" Padding="10,30,0,24">
+                    <Image 
+                 Source="concept8.png"
+                 Aspect="AspectFill"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="0" >
+                    <Image 
+              Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="1" Padding="10,20,0,20">
+                    <Image 
+                 Source="merc.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="1" >
+                    <Image 
+             Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+
+                <Grid Grid.Row="4" Grid.ColumnSpan="2" Padding="10,20,0,40">
+                    <Image 
+                 Source="concept5.jpg"
+                 IsAnimationPlaying=" True"
+                 Aspect="AspectFill"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="4" Grid.Column="1" >
+                    <Image 
+           Source="dots.png"
+          WidthRequest="15"
+          HeightRequest="15"
+          VerticalOptions="End" 
+          HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="0" Padding="10,20,0,28">
+                    <Image 
+             
+             Source="concept4.jpg"
+              Aspect="AspectFill"
+              HorizontalOptions="Fill"
+              VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="0" >
+                    <Image 
+              Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="1" Padding="10,20,0,20">
+                    <Image 
+                 Source="conceptg1.jpg"
+                 Aspect="AspectFill"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="1" >
+                    <Image 
+              Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="0" Padding="10,46,0,30">
+                    <Image 
+              Source="conceptg.gif"
+              Aspect="AspectFill"
+              HorizontalOptions="Fill"
+              VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="0" >
+                    <Image 
+               Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="1" Padding="10,20,0,20">
+                    <Image 
+              Source="concept1.jpg"
+              Aspect="AspectFill"
+              HorizontalOptions="Fill"
+              VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="6" Grid.Column="1" >
+                    <Image 
+               Source="dots.png"
+              WidthRequest="15"
+              HeightRequest="15"
+              VerticalOptions="End" 
+              HorizontalOptions="End"/>
+                </Grid>
+
+                <Grid Grid.Row="7" Grid.ColumnSpan="2" Padding="10,20,0,40">
+                    <Image 
+              Source="ai4.jpg"
+              IsAnimationPlaying=" True"
+              Aspect="AspectFill"
+              HorizontalOptions="Fill"
+              VerticalOptions="Fill"/>
+                </Grid>
+                <Grid Grid.Row="7" Grid.Column="1" >
+                    <Image 
+                 Source="dots.png"
+                 WidthRequest="15"
+                  HeightRequest="15"
+                  VerticalOptions="End" 
+                     HorizontalOptions="End"/>
+                </Grid>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
