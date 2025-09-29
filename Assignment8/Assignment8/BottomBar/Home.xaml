@@ -9,10 +9,8 @@
     <ScrollView Orientation="Vertical">
         <VerticalStackLayout>
             
- 
             <ScrollView Orientation="Horizontal" HeightRequest="50">
                 <StackLayout Orientation="Horizontal" Padding="10">
-                    
                     <Label Text="For You" WidthRequest="200" FontSize="15" FontAttributes="Bold"/>
                     <Button Text="Anime" Margin="0,-10,10,0"  Padding ="0" Clicked="OnGoToAnimePageClicked" BackgroundColor="White" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="100" FontSize="15" FontAttributes="Bold"/>
                     <Button Text="ConceptArt" Margin="0,-10,10,0"  Padding ="0" Clicked="OnGoToConceptArtPageClicked" BackgroundColor="White" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="100" FontSize="15" FontAttributes="Bold"/>
